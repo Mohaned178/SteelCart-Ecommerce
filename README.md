@@ -1,68 +1,45 @@
-Ecom Clean Architecture (.NET 8)
+🛍️ Ecom Clean Architecture (.NET 8)
 
-Ecom API is a fully functional E-Commerce Web API built with .NET 8 following the Clean Architecture pattern.
+Ecom API is a fully functional E-Commerce Web API built with .NET 8, following the Clean Architecture pattern.
 It includes secure authentication, payment processing via Stripe, and SMTP email notifications for orders.
 
-Tech Stack
+🧪 Tech Stack
 
-.NET 8 Web API
+⚙️ .NET 8 Web API
 
-Entity Framework Core 8
+🧩 Entity Framework Core 8
 
-ASP.NET Core Identity
+🔐 ASP.NET Core Identity
 
-JWT Authentication
+🔑 JWT Authentication
 
-Stripe.NET
+💳 Stripe.NET
 
-AutoMapper
+🧠 AutoMapper
 
-SQL Server
+🗄️ SQL Server
 
-SMTP
+📧 SMTP
 
-Repository + Unit of Work Pattern
+🧱 Repository + Unit of Work Pattern
 
-Features
 
-Clean Architecture (Core / Infrastructure / API layers)
+🚀 Features
 
-Authentication & Authorization with ASP.NET Identity + JWT
+🧱 Clean Architecture (Core / Infrastructure / API layers)
 
-Stripe Integration for secure payments
+🔐 Authentication & Authorization with ASP.NET Identity + JWT
 
-SMTP Email Service for order confirmations
+💳 Stripe Integration for secure payments
 
-Complete Order Management System (Orders, Items, Delivery Methods, Addresses)
+📧 SMTP Email Service for order confirmations
 
-Product Rating System
+📦 Complete Order Management System (Orders, Items, Delivery Methods, Addresses)
 
-Entity Framework Core 8 with Migrations and SQL Server
+⭐ Product Rating System
 
-AutoMapper and Repository Pattern
+🧾 Entity Framework Core 8 with Migrations and SQL Server
 
-Global Exception Handling and Custom Middleware
+🧠 AutoMapper and Repository Pattern
 
-Project Structure
-
-src/
-│
-├── Ecom.API → Presentation Layer (Controllers, Middleware, Mapping)
-│ ├── Controllers
-│ ├── Helper
-│ ├── Mapping
-│ ├── Middleware
-│ └── Program.cs
-│
-├── Ecom.Core → Domain & Application Logic
-│ ├── Entities
-│ ├── DTO
-│ ├── Interfaces
-│ ├── Services
-│ └── Sharing
-│
-└── Ecom.Infrastructure → Data Access & External Integrations
-├── Data
-├── Repositories
-├── Configurations
-└── InfrastructureRegistration.cs
+⚙️ Global Exception Handling and Custom Middleware
