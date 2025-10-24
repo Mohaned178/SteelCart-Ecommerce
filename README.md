@@ -33,8 +33,7 @@ The system includes secure user authentication, payment processing through **Str
 - Global Exception Handling and Custom Middleware  
 
 ---
-Project Structure
-=================
+## Project Structure
 
 src/
 |
