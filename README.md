@@ -34,10 +34,12 @@ The system includes secure user authentication, payment processing through **Str
 
 ---
 
-## Project Structure
+Project Structure
+=================
+
 src/
 |
-|-- Ecom.API                 // Presentation Layer
+|-- Ecom.API                 # Presentation Layer
 |   Handles HTTP requests, controllers, API mappings, and middleware
 |   |-- Controllers
 |   |-- Helper
@@ -45,7 +47,7 @@ src/
 |   |-- Middleware
 |   |-- Program.cs
 |
-|-- Ecom.Core                // Domain & Application Logic
+|-- Ecom.Core                # Domain & Application Logic
 |   Contains business entities, DTOs, service interfaces, and domain logic
 |   |-- Entities
 |   |-- DTO
@@ -53,11 +55,12 @@ src/
 |   |-- Services
 |   |-- Sharing
 |
-|-- Ecom.Infrastructure      // Data Access & External Integrations
+|-- Ecom.Infrastructure      # Data Access & External Integrations
 |   Implements repositories, EF Core configurations, and external service integrations
 |   |-- Data
 |   |-- Repositories
 |   |-- Configurations
 |   |-- InfrastructureRegistration.cs
+
 
 
