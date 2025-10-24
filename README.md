@@ -1,4 +1,4 @@
-# Ecom Clean Architecture (.NET 8)
+# SteelCart (.NET 8)
 
 Ecom API is a fully functional E-Commerce Web API built using **.NET 8**.  
 It strictly follows the **Clean Architecture** principles, separating concerns into distinct layers for maintainability and scalability.  
