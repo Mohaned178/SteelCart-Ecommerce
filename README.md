@@ -57,5 +57,5 @@ src/
     ├── Configurations # EF Core configs
     └── InfrastructureRegistration.cs # DI setup
 ```
-
+![image alt](https://github.com/Mohaned178/Ecom-Backend-.NET8/blob/main/Screenshot%202025-10-24%20034705.png)
 
