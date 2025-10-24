@@ -29,7 +29,6 @@ Clean Architecture (Core / Infrastructure / API layers)
 
 Authentication & Authorization with ASP.NET Identity + JWT
 
-
 Stripe Integration for secure payments
 
 SMTP Email Service for order confirmations
@@ -45,24 +44,25 @@ AutoMapper and Repository Pattern
 Global Exception Handling and Custom Middleware
 
 Project Structure
-src/
-├── Ecom.API                 → Presentation Layer (Controllers, Middleware, Mapping)
-│   ├── Controllers
-│   ├── Helper
-│   ├── Mapping
-│   ├── Middleware
-│   └── Program.cs
-│
-├── Ecom.Core                → Domain & Application Logic
-│   ├── Entities
-│   ├── DTO
-│   ├── Interfaces
-│   ├── Services
-│   └── Sharing
-│
-└── Ecom.Infrastructure      → Data Access & External Integrations
-    ├── Data
-    ├── Repositories
-    ├── Configurations
-    └── InfrastructureRegistration.cs
 
+src/
+│
+├── Ecom.API → Presentation Layer (Controllers, Middleware, Mapping)
+│ ├── Controllers
+│ ├── Helper
+│ ├── Mapping
+│ ├── Middleware
+│ └── Program.cs
+│
+├── Ecom.Core → Domain & Application Logic
+│ ├── Entities
+│ ├── DTO
+│ ├── Interfaces
+│ ├── Services
+│ └── Sharing
+│
+└── Ecom.Infrastructure → Data Access & External Integrations
+├── Data
+├── Repositories
+├── Configurations
+└── InfrastructureRegistration.cs
