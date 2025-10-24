@@ -33,33 +33,29 @@ The system includes secure user authentication, payment processing through **Str
 - Global Exception Handling and Custom Middleware  
 
 ---
-## Project Structure
+Project Structure
 
 src/
-|
-|-- Ecom.API                 # Presentation Layer
-|   Handles HTTP requests, controllers, API mappings, and middleware
-|   |-- Controllers
-|   |-- Helper
-|   |-- Mapping
-|   |-- Middleware
-|   |-- Program.cs
-|
-|-- Ecom.Core                # Domain & Application Logic
-|   Contains business entities, DTOs, service interfaces, and domain logic
-|   |-- Entities
-|   |-- DTO
-|   |-- Interfaces
-|   |-- Services
-|   |-- Sharing
-|
-|-- Ecom.Infrastructure      # Data Access & External Integrations
-|   Implements repositories, EF Core configurations, and external service integrations
-|   |-- Data
-|   |-- Repositories
-|   |-- Configurations
-|   |-- InfrastructureRegistration.cs
-
-
-
+├── Ecom.API
+│   ├── Controllers
+│   ├── Helper
+│   ├── Mapping
+│   ├── Middleware
+│   └── Program.cs
+│   (Handles HTTP requests, controllers, API mappings, and middleware)
+│
+├── Ecom.Core
+│   ├── Entities
+│   ├── DTO
+│   ├── Interfaces
+│   ├── Services
+│   └── Sharing
+│   (Contains business entities, DTOs, service interfaces, and domain logic)
+│
+└── Ecom.Infrastructure
+    ├── Data
+    ├── Repositories
+    ├── Configurations
+    └── InfrastructureRegistration.cs
+    (Implements repositories, EF Core configurations, and external service integrations)
 
